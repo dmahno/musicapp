@@ -54,3 +54,4 @@
 - build — changing deploy process (example: webpack, npm scripts, ...)
 - style — changing styles
 - test — adding new tests
+- struct - changing folder order, removing files
