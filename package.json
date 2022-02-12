@@ -13,6 +13,8 @@
     "@dh-react-hooks/use-raf": "^0.9.1",
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
+    "@types/cookie": "^0.4.1",
+    "@types/jsonwebtoken": "^8.5.8",
     "bcrypt": "^5.0.1",
     "cookie": "^0.4.1",
     "cookies": "^0.8.0",

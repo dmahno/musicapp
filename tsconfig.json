@@ -6,7 +6,7 @@
     "paths": {
       "shared*": ["./src/shared/index.ts"],
       "layouts*": ["./src/layouts/index.ts"],
-
+      "lib": ["./lib/index.ts"],
       "~i/*": ["./public/images/*"]
     },
     "allowJs": true,
@@ -23,6 +23,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.js", "**/*.tsx", "src/prisma/seed.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.js", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
