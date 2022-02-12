@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/layout';
-import { Sidebar } from '~c/Sidebar/Sidebar';
+import { Sidebar } from 'src/components/Sidebar/Sidebar';
 
 export const PlayerLayout: React.FC = ({ children }) => {
   return (
