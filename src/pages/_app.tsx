@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import { extendTheme, ChakraProvider } from '@chakra-ui/react';
-import '~s/globals.scss';
+import '../styles/globals.scss';
 
 const theme = extendTheme({
   colors: {

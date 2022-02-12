@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { PlayerLayout } from '~c/PlayerLayout/PlayerLayout';
+import { PlayerLayout } from 'layouts';
 
 const Home: NextPage = () => {
   return <PlayerLayout />;

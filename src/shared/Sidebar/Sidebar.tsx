@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Box, List, ListItem, ListIcon, Divider, Center, LinkBox, LinkOverlay } from '@chakra-ui/layout';
-import { navigationMenu } from './SIdebarPageMenu';
+import { navigationMenu } from './config/dataPageMenu';
 import { SidebarMenu } from './SidebarMenu/SidebarMenu';
-import { musicMenu } from './SIdebarMusicMenu';
+import { musicMenu } from './config/dataMusicMenu';
 
 //custom playlist
 const playlist = new Array(30).fill(1).map((item, id) => (

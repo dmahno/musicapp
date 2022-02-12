@@ -1,5 +1,5 @@
 import { MdPlaylistAdd, MdFavorite } from 'react-icons/md';
-import { InavigationMenuProps } from './SIdebarPageMenu';
+import { InavigationMenuProps } from './dataPageMenu';
 
 export const musicMenu: InavigationMenuProps[] = [
   {
