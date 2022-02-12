@@ -1,2 +1,2 @@
-import { PrismaClient } from '@prisma/client';
-export default new PrismaClient();
+export { prisma } from './prisma';
+export { fetcher } from './apicalls';
