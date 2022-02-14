@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { LinkBox, LinkOverlay, List, ListIcon, ListItem } from '@chakra-ui/layout';
-import { InavigationMenuProps } from '../config/dataPageMenu';
+import { InavigationMenuProps } from '../../config/dataPageMenu';
 
 interface ISidebarMenu {
   menu: InavigationMenuProps[];

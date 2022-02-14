@@ -4,8 +4,8 @@
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "paths": {
-      "shared*": ["./src/shared/index.ts"],
-      "layouts*": ["./src/layouts/index.ts"],
+      "shared": ["./src/shared/index.ts"],
+      "layouts": ["./src/layouts/index.ts"],
       "lib": ["./lib/index.ts"],
       "~i/*": ["./public/images/*"]
     },

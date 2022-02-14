@@ -1,5 +1,5 @@
 import { artistsData } from './songsData';
-import prisma from 'lib';
+import prisma from '../src/shared/Authorization/api/prisma';
 import bcrypt from 'bcrypt';
 
 const run = async () => {

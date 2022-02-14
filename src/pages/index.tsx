@@ -1,7 +1,5 @@
 import type { NextPage } from 'next';
 import { PlayerLayout } from 'layouts';
 
-const Home: NextPage = () => {
-  return <PlayerLayout />;
-};
+const Home: NextPage = () => <PlayerLayout />;
 export default Home;
